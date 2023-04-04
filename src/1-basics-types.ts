@@ -44,3 +44,8 @@ give two types of values to the data that will be store */
 address = "direccion"
 address = 43
 address = true
+
+
+/*  */
+
+let re: RegExp = /\w+/g
