@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.3"
+  },
+  "name": "typescript_notebook",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanEliasJabib02/typescript_notebook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanEliasJabib02/typescript_notebook/issues"
+  },
+  "homepage": "https://github.com/JuanEliasJabib02/typescript_notebook#readme"
+}
