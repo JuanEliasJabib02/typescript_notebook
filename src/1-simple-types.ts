@@ -1,25 +1,25 @@
 
 
-/* In ttypescript exists
-to ways to set a type in typescript */
-let bye = "string"
-let hello: string = "string"
+/* Typescript has two way to assigns a type */
+
 /* Implicit 
-In this type of declaration typescript inferring that im using a string,
-Is not a strict set
+Implicit - TypeScript will "guess" the type, based on the assigned value:
  */
+let bye = "string"
+
 bye = 2
-/* Explicit 
-Is when we set the data that will have.
-*/
+
+/* Explicit - writing out the type */
+let hello: string = "string"
 hello = true
 
 
-/* The any Type */
+
+/* Unable to Infer
+
+TypeScript may not always properly infer what the type of a variable may be. In such cases, it will set the type to any which disables type checking. */
 
 let album: any;
-
-
 
 /* This type means that 
 the data can be any type of data and
